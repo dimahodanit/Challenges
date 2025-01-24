@@ -9,20 +9,17 @@
 }
 body {
   background-color: #D5E1EF;
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
 }
 
-main {
-  width: 1440px;
-  height: 960px;
-  display: inline-flex;
-  align-items: center;
-}
 
 .qr-code {
   background-color: white;
   border-radius: 20px;
-  width: 320px;
-  height: 499px;
+  max-width: 320px;
+  height: auto;
   margin: 0 auto;
   padding: 16px 16px 0 16px;
   text-align: center;
@@ -30,8 +27,7 @@ main {
 
 .qr-code-wrapper__qr-img {
   display: block;
-  width: 288px;
-  height: 288px;
+  width: 100%;
   border-radius: 20px;
   margin-bottom: 24px;
 }
